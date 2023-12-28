@@ -108,6 +108,8 @@ a {
 }
 
 .button {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
   background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
   color: #ffffff;
@@ -117,6 +119,7 @@ a {
   letter-spacing: 0.04em;
   cursor: pointer;
   padding: 16px 32px;
+  border: transparent;
 }
 
 .button:hover,
@@ -179,6 +182,10 @@ button:focus {
   display: block;
 }
 
+.portfolio-image {
+  margin-bottom: 32px;
+}
+
 .image-headerthree {
   font-size: 20px;
   font-weight: 500;
@@ -205,6 +212,12 @@ button:focus {
 
 .portfolio-section {
   padding: 120px 156px;
+  background-color: #ffffff;
+}
+
+.portfolio-list {
+  border: 1px solid #e7e9fc;
+  max-width: 360px;
 }
 
 .portfolio-headertwo {
@@ -224,6 +237,9 @@ button:focus {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding-left: 16px;
+  padding-right: 226px;
+  margin-bottom: 8px;
 }
 
 .portfolio-p {
@@ -231,6 +247,9 @@ button:focus {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  padding-left: 16px;
+  padding-right: 314px;
+  padding-bottom: 32px;
 }
 
 /* ------------------------------------- */
