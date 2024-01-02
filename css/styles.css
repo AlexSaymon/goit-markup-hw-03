@@ -79,6 +79,10 @@ a {
 
 .nav-menu {
   display: flex;
+  align-items: center;
+}
+
+.nav-item {
 }
 
 .nav-header {
@@ -93,6 +97,7 @@ a {
 .nav-header .nav-link {
   text-decoration: none;
   color: #2e2f42;
+  padding: 24px 0;
 }
 
 .nav-header .nav-link:hover {
@@ -167,6 +172,7 @@ a {
   border: transparent;
   margin: 0 auto;
   display: block;
+  min-width: 169px;
 }
 
 .button:hover,
@@ -178,7 +184,7 @@ button:focus {
 /* --------------DESCRIPTION------------- */
 
 .description {
-  padding: 120px 156px;
+  padding: 120px;
 }
 
 .description-list {
@@ -240,7 +246,6 @@ button:focus {
 }
 
 .team-image {
-  margin-bottom: 32px;
 }
 
 .team-image,
@@ -263,8 +268,11 @@ button:focus {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  padding-bottom: 32px;
   text-align: center;
+}
+
+.team-name-position {
+  padding: 32px 0;
 }
 
 /* ------------------------------------- */
@@ -277,7 +285,6 @@ button:focus {
 }
 
 .portfolio-list {
-  border-bottom: 1px solid #e7e9fc;
   width: calc((100% - 48px) / 3);
 }
 
@@ -299,7 +306,8 @@ button:focus {
 .portfolio-menu {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  row-gap: 48px;
+  column-gap: 24px;
 }
 
 .portfolio-headerthree {
@@ -308,9 +316,6 @@ button:focus {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-bottom: 8px;
-  padding-left: 16px;
-  padding-right: auto;
 }
 
 .portfolio-p {
@@ -318,9 +323,13 @@ button:focus {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  padding-bottom: 32px;
-  padding-left: 16px;
-  padding-right: auto;
+}
+
+.portfolio-text {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
 }
 
 /* ------------------------------------- */
