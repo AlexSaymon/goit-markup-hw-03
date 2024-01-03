@@ -52,7 +52,6 @@ a {
 /* --------------HEADER------------- */
 
 .header {
-  padding: 24px 156px;
   border-bottom: 1px solid #e7e9fc;
   background: #fff;
 }
@@ -72,6 +71,7 @@ a {
   text-transform: uppercase;
   display: flex;
   margin-right: 76px;
+  padding: 25.5px 0;
 }
 
 .span-header {
@@ -126,6 +126,7 @@ a {
   font-style: normal;
   display: flex;
   margin-left: auto;
+  padding: 24px 0;
 }
 
 .nav-link-mailphone {
@@ -290,7 +291,6 @@ button:focus {
 }
 
 .portfolio-image {
-  margin-bottom: 32px;
 }
 
 .portfolio-headertwo {
@@ -331,7 +331,6 @@ button:focus {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
 }
 
 /* ------------------------------------- */
